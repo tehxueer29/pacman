@@ -73,7 +73,7 @@ class State:
     # Main method for training.
     def play(self, iterations=100):
         for i in range(iterations):
-            if i % 1000 == 0:
+            if i % 50 == 0:
                 print("Iterations {}".format(i))
             if i % 500 == 0:
                 p1.savePolicy()
